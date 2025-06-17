@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voting System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Voting System</h1>
+
+    <!-- Poll Title -->
+    <div class="poll-title">
+      <label for="pollName">Poll Title:</label>
+      <input type="text" id="pollName" placeholder="Enter poll title" />
+    </div>
+
+    <!-- Add Option Form -->
+    <div class="add-option">
+      <input type="text" id="newOption" placeholder="New option" />
+      <button id="addOptionBtn">Add Option</button>
+    </div>
+
+    <!-- Poll Options -->
+    <div id="optionsList">
+      <!-- Dynamically generated options will go here -->
+    </div>
+
+    <!-- Vote Results -->
+    <div id="results">
+      <h2>Results</h2>
+      <ul id="resultsList">
+        <!-- Votes displayed here -->
+      </ul>
+    </div>
+
+    <!-- Chart -->
+    <canvas id="pollChart" width="400" height="200"></canvas>
+
+    <!-- Action Buttons -->
+    <div class="actions">
+      <button id="resetBtn">Reset Poll</button>
+      <button id="exportJsonBtn">Export JSON</button>
+      <button id="exportCsvBtn">Export CSV</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
