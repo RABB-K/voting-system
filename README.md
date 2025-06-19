@@ -1,8 +1,8 @@
 # Voting System –  Interactive Polling System (Vanilla JavaScript)
 
-## Overview
+##Overview
 
-A dynamic polling web app built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
+- A dynamic polling web app built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
 Allows users to create polls, add options, vote once, view live results with a bar chart, and export poll data in JSON or CSV formats. Data and voting state are saved in `localStorage` for persistence.
 ---
 
